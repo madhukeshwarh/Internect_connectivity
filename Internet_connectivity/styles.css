@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1327264496/vector/abstract-network-background-big-data-design.jpg?s=612x612&w=0&k=20&c=Mc2EfclAVxrlucRc0bID4pSg2fJIFBlULCHULxvciC8=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  #status {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+
+  #status.connected {
+    background-color: #27ae60; 
+  }
+  
+  #status.disconnected {
+    background-color: #c0392b; 
+  }
+  header {
+    background-color: #34495e; 
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+  }
+  header h1 {
+    margin: 0;
+  }
+  footer {
+    background-color: #34495e;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
